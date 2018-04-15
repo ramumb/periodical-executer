@@ -1,0 +1,31 @@
+{
+  "name": "periodical-executer",
+  "version": "0.1.0",
+  "description": "Oversees the calling of a particular function periodically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramumb/periodical-executer.git"
+  },
+  "keywords": [
+    "periodical",
+    "execution",
+    "polling",
+    "interval",
+    "frequency",
+    "decay"
+  ],
+  "author": "Reginald Mullin <ramumb@yahoo.com> (http://www.reginaldmullin.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramumb/periodical-executer/issues"
+  },
+  "homepage": "https://github.com/ramumb/periodical-executer#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0"
+  }
+}

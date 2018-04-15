@@ -1,6 +1,9 @@
 periodical-executer(object)
 ========================================
 
+[![Build Status](https://travis-ci.org/ramumb/periodical-executer.svg?branch=master)](https://travis-ci.org/ramumb/periodical-executer)
+[![Coverage Status](https://coveralls.io/repos/github/ramumb/periodical-executer/badge.svg?branch=master)](https://coveralls.io/github/ramumb/periodical-executer?branch=master)
+
 This is a port of the [PrototypeJS](http://prototypejs.org/) class `PeriodicalExecuter`.
 It addresses the common need of calling of a particular function periodically, as
 required by all sorts of "polling" mechanisms (e.g., a chatroom or mail client).

@@ -5,14 +5,14 @@ periodical-executer(object)
 [![Coverage Status](https://coveralls.io/repos/github/ramumb/periodical-executer/badge.svg?branch=master)](https://coveralls.io/github/ramumb/periodical-executer?branch=master)
 
 This is a port of the [PrototypeJS](http://prototypejs.org/) class `PeriodicalExecuter`.
-It addresses the common need of calling of a particular function periodically, as
+It addresses the common need of calling a particular function periodically, as
 required by all sorts of "polling" mechanisms (e.g., a chatroom or mail client).
 
 `PeriodicalExecuter` accepts an `object` with three properties: one for a `callback`
 function (which is passed the `this` parameter), another for a `frequency` number
 (defaults to 2000 milliseconds), and one for a `decay` number (defaults to 1000
 milliseconds).  The class then exposes two instance methods called `start` and
-`stop`, which do as their names imply.
+`stop`, which does as their names implies.
 
 ## Installation
 
